@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "96efbc30-8ddb-4352-b17e-6f0034df68d9": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+
+          }
+        }
+      }
+    },
+    "shareItemToMicrosoftTeams": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "96efbc30-8ddb-4352-b17e-6f0034df68d9": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+
+          }
+        }
+      }
+    }
+  }
+}

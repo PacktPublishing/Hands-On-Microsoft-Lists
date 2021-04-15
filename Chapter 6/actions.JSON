@@ -1,0 +1,112 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "style": {
+        "margin-right": "5px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block",
+            "padding": "0 4px"
+          },
+          "attributes": {
+            "iconName": "RedEye"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block"
+          },
+          "txtContent": "View"
+        }
+      ]
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "share"
+      },
+      "style": {
+        "margin-right": "5px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block",
+            "padding": "0 4px"
+          },
+          "attributes": {
+            "iconName": "Share"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block"
+          },
+          "txtContent": "Share"
+        }
+      ]
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "delete"
+      },
+      "style": {
+        "margin-right": "5px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block",
+            "padding": "0 4px"
+          },
+          "attributes": {
+            "iconName": "Delete"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block"
+          },
+          "txtContent": "Delete"
+        }
+      ]
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "executeFlow",
+        "actionParams": "{\"id\": \"5f29e9dd-5f47-48b9-b557-2bd552a4e0f6\"}"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "Flow"
+          },
+          "style": {
+            "padding-right": "6px"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "Send by email"
+        }
+      ]
+    }
+  ]
+}
