@@ -1,0 +1,28 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "debugMode": true,
+    "children": [{
+        "elmType": "span",
+        "forEach": "country in @currentField",
+        "txtContent": "[$country]",
+        "style": {
+            "padding": "4px"
+        },
+        "attributes": {
+            "class": {
+                "operator": "?",
+                "operands": [{
+                        "operator": "==",
+                        "operands": [
+                            "[$country]",
+                            "United States"
+                        ]
+                    },
+                    "sp-field-severity--warning",
+                    "sp-field-severity--good"
+                ]
+            }
+        }
+    }]
+}

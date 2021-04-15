@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.13.0-abeta.7",
+    "libraryName": "microsoft-list-extension",
+    "libraryId": "9ee84f12-82e3-4db9-b2e0-4fd96682e972",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

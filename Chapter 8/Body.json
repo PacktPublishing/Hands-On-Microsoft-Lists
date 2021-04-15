@@ -1,0 +1,37 @@
+{
+    "sections": [{
+            "displayname": "Personal Information",
+            "fields": [
+                "Trip title",
+                "Requester",
+                "Reason"
+            ]
+        },
+        {
+            "displayname": "Details",
+            "fields": [
+                "Destination",
+                "Travel start date",
+                "Travel end date",
+                "Travel duration (days)",
+                "Airline",
+                "Hotel",
+                "Countries"
+            ]
+        },
+        {
+            "displayname": "Estimated cost",
+            "fields": [
+                "Estimated airfare",
+                "Estimated hotel cost"
+            ]
+        },
+        {
+            "displayname": "Status",
+            "fields": [
+                "Approved?",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "width": "250",
+    "height": "250",
+    "formatter": {
+        "elmType": "div",
+        "attributes": {
+            "class": "sp-row-card"
+        },
+        "children": [{
+            "elmType": "div",
+            "style": {
+                "display": "inline-block",
+                "min-width": "250px",
+                "min-height": "250px",
+                "margin-right": "10px",
+                "box-shadow": "2px 2px 4px darkgrey"
+            },
+            "children": [{
+                    "elmType": "img",
+                    "attributes": {
+                        "src": "[$Background]"
+                    },
+                    "style": {
+                        "height": "250px",
+                        "max-width": "250px"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "position": "absolute",
+                        "margin-top": "10px",
+                        "height": "250px",
+                        "width": "250px",
+                        "bottom": "0",
+                        "padding-top": "10px",
+                        "background-color": "rgba(0,0,0,0.5)"
+                    },
+                    "children": [{
+                        "elmType": "div",
+                        "style": {
+                            "text-align": "left"
+                        },
+                        "children": [{
+                                "elmType": "div",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-top": "10px",
+                                    "margin-left": "10px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "55px",
+                                    "line-height": "55px"
+                                },
+                                "txtContent": "=[$Temperature]+'º'"
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "[$Title]",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "margin-top": "10px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "25px",
+                                    "line-height": "25px"
+                                }
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "[$Condition]",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "20px",
+                                    "line-height": "20px"
+                                }
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "Today",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "margin-top": "20px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "14px",
+                                    "line-height": "14px"
+                                }
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "[$Today]",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "14px",
+                                    "line-height": "14px",
+                                    "margin-top": "5px"
+                                }
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "Tomorrow",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "margin-top": "20px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "14px",
+                                    "line-height": "14px"
+                                }
+                            },
+                            {
+                                "elmType": "div",
+                                "txtContent": "[$Tomorrow]",
+                                "style": {
+                                    "color": "#fff",
+                                    "margin-left": "10px",
+                                    "width": "250px",
+                                    "top": "0",
+                                    "font-size": "14px",
+                                    "line-height": "14px",
+                                    "margin-top": "5px"
+                                }
+                            }
+                        ]
+                    }]
+                }
+            ]
+        }]
+    }
+}

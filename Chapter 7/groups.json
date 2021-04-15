@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "font-weight": "800"
+      },
+	  "txtContent": "= @group.count + if(@group.count > '1', ' computers', ' computer') + ' with ' + @group.fieldData.displayValue + ' in stock'"
+    },
+	"footerFormatter": {
+      "elmType": "div",
+      "style": {
+        "font-weight": "800"
+      },
+	  "txtContent": "= 'Total value: ' + @columnAggregate.value"
+    }
+  }
+}

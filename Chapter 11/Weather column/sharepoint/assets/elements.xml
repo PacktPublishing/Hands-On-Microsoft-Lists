@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{6369cc55-c212-48a3-a893-dbcffdb9db50}"
+            Name="SPFxCity"
+            DisplayName="City"
+            Type="Text"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="ca764061-6b85-41b0-9881-586a475340cd">
+    </Field>
+</Elements>

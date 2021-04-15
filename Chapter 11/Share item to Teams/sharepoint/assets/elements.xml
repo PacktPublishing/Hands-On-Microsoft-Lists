@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ShareItemToMicrosoftTeams"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="96efbc30-8ddb-4352-b17e-6f0034df68d9"
+        ClientSideComponentProperties="">
+    </CustomAction>
+    <CustomAction
+        Title="ShareItemToMicrosoftTeams"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="96efbc30-8ddb-4352-b17e-6f0034df68d9"
+        ClientSideComponentProperties=""> 
+    </CustomAction>
+</Elements>

@@ -1,0 +1,61 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "font-size": "12px"
+    },
+    "txtContent": "@currentField",
+    "customCardProps": {
+        "formatter": {
+            "elmType": "div",
+            "style": {
+                "padding": "15px 45px 15px 15px"
+            },
+            "children": [{
+                "elmType": "div",
+                "children": [{
+                        "elmType": "span",
+                        "txtContent": "Created",
+                        "style": {
+                            "position": "relative",
+                            "display": "block",
+                            "font-size": "16px"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "[$Created]",
+                        "style": {
+                            "position": "relative",
+                            "display": "block",
+                            "margin-bottom": "10px"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "Updated",
+                        "style": {
+                            "position": "relative",
+                            "display": "block",
+                            "font-size": "16px"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "[$Modified]",
+                        "style": {
+                            "position": "relative",
+                            "display": "block"
+                        }
+                    }
+                ]
+            }]
+        },
+        "openOnEvent": "hover",
+        "directionalHint": "bottomCenter",
+        "isBeakVisible": true,
+        "beakStyle": {
+            "backgroundColor": "white"
+        }
+    }
+}
