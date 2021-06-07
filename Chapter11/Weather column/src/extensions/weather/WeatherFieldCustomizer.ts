@@ -37,7 +37,7 @@ export default class WeatherFieldCustomizer
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
     // Use this method to perform your custom cell rendering.
     let city = event.fieldValue;
-
+    var weather = require('openweather-apis');
     (weather as any).setLang('en');
     (weather as any).setCity(city);
     (weather as any).setUnits('metric');
