@@ -56,7 +56,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Microsoft 365 and SharePoint Online Cookbook [[Packt]](https://www.packtpub.com/product/microsoft-365-and-sharepoint-online-cookbook/9781838646677) [[Amazon]](https://www.amazon.com/dp/1838646671)
 
-## Get to Know the Author(s)
+## Get to Know the Authors
 **João Carlos Oliveira Ferreira**
 is a Microsoft MVP, in the Office Development and Windows Insider categories. With a degree in computer science, João has been working with Microsoft Technologies over the last ten years, mainly focused on creating collaboration and productivity solutions that drive the adoption of Microsoft Modern Workplace. A true tech enthusiast, book author, and author of 3 blogs he writes weekly about SharePoint, Microsoft Teams, and Microsoft Lists.
 
