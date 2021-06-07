@@ -6,7 +6,7 @@
     "default": {
       "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "fieldCustomizers": {
-        "InternalFieldName": {
+        "City": {
           "id": "ca764061-6b85-41b0-9881-586a475340cd",
           "properties": {
             "sampleText": "Value"
@@ -17,7 +17,7 @@
     "weather": {
       "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "fieldCustomizers": {
-        "InternalFieldName": {
+        "City": {
           "id": "ca764061-6b85-41b0-9881-586a475340cd",
           "properties": {
             "sampleText": "Value"
