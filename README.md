@@ -39,7 +39,7 @@ The code will look like the following:
 ```
 
 **Following is what you need for this book:**
-This book is for business professionals and end users working with Microsoft 365 tools such as SharePoint and Microsoft Teams who are looking to improve the way their data is structured, managed, and consumed inside an organization. Basic knowledge of SharePoint and Excel is assumed..
+This book is for business professionals and end users working with Microsoft 365 tools such as SharePoint and Microsoft Teams who are looking to improve the way their data is structured, managed, and consumed inside an organization. Basic knowledge of SharePoint and Excel is assumed.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 
