@@ -50,4 +50,4 @@ $templateID = $issueTrackerTemplateId
 Set-SPOTenant -EnableModernListTemplateIds  $templateID
 
 #Get a list of all disabled templates
-Get-SPOTenant | select DisabledModernTemplateIds
+Get-SPOTenant | select DisabledModernListTemplateIds
