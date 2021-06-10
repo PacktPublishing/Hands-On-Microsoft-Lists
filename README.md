@@ -4,17 +4,17 @@
 
 This is the code repository for [Hands-On Microsoft Lists](https://www.packtpub.com/product/hands-on-microsoft-lists/9781801075046), published by Packt.
 
-**Create custom data models and improve the way data is organized using Microsoft Lists**
+**Create custom data models and improve the way data is organized using Lists in Microsoft 365**
 
 ## What is this book about?
 Microsoft Lists is an extremely flexible and powerful platform for creating custom data models. This book is an easy-to-read guide for those who want to get started with Lists, as well as those who are already familiar with the basic concepts and want to create custom and flexible Lists that are easily available through a web interface.
 
 This book covers the following exciting features: 
-* Explore Microsoft Lists and learn to organize data quickly
 * Use the Lists platform effectively in the modern workplace
 * Get to grips with data privacy
 * Discover how to customize Microsoft Lists data and forms
 * Automate processes using Microsoft Lists
+* Extend the default features of Microsoft Lists using the SharePoint framework
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1801075042) today!
 
