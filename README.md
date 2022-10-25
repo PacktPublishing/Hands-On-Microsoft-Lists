@@ -66,3 +66,7 @@ is a Microsoft Office Apps & Services MVP, working as APAC Digital Workplace Pro
 
 ## Other books by the authors
 * [Hands-On Microsoft Teams](https://www.packtpub.com/product/hands-on-microsoft-teams/9781839213984)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801075046">https://packt.link/free-ebook/9781801075046 </a> </p>
